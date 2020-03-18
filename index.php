@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>It's Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <!--Dropdown arrow-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<header>
+    <!--dropdown function-->
+    <script src="js/main.js"></script>
+    <div class="topnav" id="myTopnav">
+        <a href="index.php" class="logo"><img src="img/itsme.png" alt="Logo" height="25" width="125"></a>
+
+        <a href="#About Us">About Us</a>
+        <a href="#Contact Us">Contact Us</a>
+        <a href="views/auth/login.php">Login</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</header>
+
+
+<div style="padding-left:20px">
+    <h1>Its Me</h1>
+</div>
+
+
+
+<footer>
+    @ItsMe all rights reserved
+</footer>
+
+</body>
+</html>
